@@ -40,6 +40,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <style id='wp-block-post-terms-inline-css'>
 .wp-block-post-terms{box-sizing:border-box}.wp-block-post-terms .wp-block-post-terms__separator{white-space:pre-wrap}
 </style>
+<style id='wp-block-heading-inline-css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+</style>
 <style id='wp-block-post-content-inline-css'>
 .wp-block-post-content{display:flow-root}
 </style>
@@ -48,9 +51,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </style>
 <style id='wp-block-comments-inline-css'>
 .wp-block-post-comments{box-sizing:border-box}.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{clear:both;content:"";display:table}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;margin-top:.5em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{display:block;margin-bottom:1em;margin-top:1em}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{box-sizing:border-box;display:block;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-family:inherit;font-size:1em}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}:where(.wp-block-post-comments input[type=submit]){border:none}
-</style>
-<style id='wp-block-heading-inline-css'>
-h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
 </style>
 <style id='wp-block-post-date-inline-css'>
 .wp-block-post-date{box-sizing:border-box}
@@ -220,7 +220,7 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 	
 	<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 		<h1 class="wp-block-post-title">Bathing your dog</h1>
-		
+		<figure style="aspect-ratio:3/2;" class="wp-block-post-featured-image"><img width="3888" height="2592" src="/UX221Assignment1/wp-content/uploads/2025/01/pexels-matthias-penke-3313323-16075192.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="dog getting washed" style="width:100%;height:100%;object-fit:cover;" decoding="async" fetchpriority="high" /></figure>
 		
 <div class="wp-block-group has-accent-4-color has-text-color has-link-color has-small-font-size is-layout-flex wp-container-core-group-is-layout-5 wp-block-group-is-layout-flex" style="margin-bottom:var(--wp--preset--spacing--60)">
 	
@@ -230,11 +230,81 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 	
 	<p>in</p>
 	
-	<div style="font-weight:300" class="taxonomy-category wp-block-post-terms"><a href="/UX221Assignment1/category/uncategorized/" rel="tag">Uncategorized</a></div>
+	<div style="font-weight:300" class="taxonomy-category wp-block-post-terms"><a href="/UX221Assignment1/category/dogs/" rel="tag">Dogs</a></div>
 </div>
 
 
-		
+		<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<h3 class="wp-block-heading" id="f28c5d9e81a64a69023038371189666b">1. Reassure your dog</h3>
+
+
+
+<p>Lots of dogs don’t like being given a bath so it&#8217;s important to let them know that you’ve got their best interests at heart. Talk to them in a reassuring voice before, during and after the bath. You could also give your dog a treat after a successful dog bath!</p>
+
+
+
+<h3 class="wp-block-heading" id="a3aed8565d9e710f7f56b0e769a54106">2. Brush your dog first</h3>
+
+
+
+<p>This is to ensure that there are no tangles or matted fur. Matted hair holds water which can leave you dog with irritated skin.</p>
+
+
+
+<h3 class="wp-block-heading" id="7c8ca8e2357c692f6b86ae03eec495f6">3. Test the water temperature</h3>
+
+
+
+<p>Keep the water at a warm temperature and make sure you test it before washing your dog.</p>
+
+
+
+<h3 class="wp-block-heading" id="e9388ebc0c2457e72e9b1eb7a1ee4066">4. Wet your dog’s body</h3>
+
+
+
+<p>Soak your dog’s body in warm water and ensure their fur is nice and wet, especially underneath.</p>
+
+
+
+<h3 class="wp-block-heading" id="09c6dd6ba62b17a8f6e10dfe33f238dc">5. Add the dog shampoo</h3>
+
+
+
+<p>Squeeze out a small amount and rub the shampoo into the body until it lathers. Do not apply shampoo to your dog’s head or face as you risk getting shampoo in your dog’s eyes.</p>
+
+
+
+<h3 class="wp-block-heading" id="5c44b1f1d51e0fba1a261f6ffeb7034e">6. Wipe your dog’s face</h3>
+
+
+
+<p>If your dog’s face is also dirty then you should wipe it with a damp cloth but don’t get shampoo or soap on their face.</p>
+
+
+
+<h3 class="wp-block-heading" id="8209a5e831b9e88b7e49655f8242533e">7. Rinse your dog</h3>
+
+
+
+<p>It’s important to rinse your dog thoroughly with warm water. Excess soap can irritate your dog’s skin, so it’s important to be rigorous with the rinsing.</p>
+
+
+
+<h3 class="wp-block-heading">8. Dry your dog</h3>
+
+
+
+<p>Use a towel to dry your dog thoroughly after the bath. You can also use a blow-dryer to dry your dog but make sure it’s on the coolest setting, hold far away from their skin and keep it moving so you don’t focus it on one spot too long.</p>
+
+
+
+<h3 class="wp-block-heading" id="f1d5f94bfe230552e88442204e4a2850">9. Reward your dog</h3>
+
+
+
+<p id="42f3d7e37efd73b878ed3f62e602d912">After you’ve bathed your dog it’s important to reward them with vocal praise. It’s also a good idea to give your dog a treat too so they know you appreciated their co-operation.</p>
+</div>
 		
 		<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -264,28 +334,28 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 
 	
 	<div class="wp-block-query alignwide is-layout-flow wp-block-query-is-layout-flow">
-		<ul class="alignfull wp-block-post-template is-layout-flow wp-container-core-post-template-is-layout-1 wp-block-post-template-is-layout-flow"><li class="wp-block-post post-47 post type-post status-publish format-standard hentry category-uncategorized">
+		<ul class="alignfull wp-block-post-template is-layout-flow wp-container-core-post-template-is-layout-1 wp-block-post-template-is-layout-flow"><li class="wp-block-post post-47 post type-post status-publish format-standard hentry category-dogs">
 			
 			<div class="wp-block-group alignfull is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-10 wp-block-group-is-layout-flex" style="border-bottom-color:var(--wp--preset--color--accent-6);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 				<h3 class="wp-block-post-title has-large-font-size"><a href="/UX221Assignment1/playing-with-your-dog/" target="_self" >Playing with your dog</a></h3>
 				<div class="has-text-align-right wp-block-post-date"><time datetime="2025-01-31T18:32:32-05:00"><a href="/UX221Assignment1/playing-with-your-dog/">31 January 2025</a></time></div>
 			</div>
 			
-		</li><li class="wp-block-post post-45 post type-post status-publish format-standard hentry category-uncategorized">
+		</li><li class="wp-block-post post-45 post type-post status-publish format-standard hentry category-cats">
 			
 			<div class="wp-block-group alignfull is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-11 wp-block-group-is-layout-flex" style="border-bottom-color:var(--wp--preset--color--accent-6);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 				<h3 class="wp-block-post-title has-large-font-size"><a href="/UX221Assignment1/playing-with-your-cat/" target="_self" >Playing with your cat</a></h3>
 				<div class="has-text-align-right wp-block-post-date"><time datetime="2025-01-31T18:32:18-05:00"><a href="/UX221Assignment1/playing-with-your-cat/">31 January 2025</a></time></div>
 			</div>
 			
-		</li><li class="wp-block-post post-43 post type-post status-publish format-standard hentry category-uncategorized">
+		</li><li class="wp-block-post post-43 post type-post status-publish format-standard has-post-thumbnail hentry category-dogs">
 			
 			<div class="wp-block-group alignfull is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-12 wp-block-group-is-layout-flex" style="border-bottom-color:var(--wp--preset--color--accent-6);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 				<h3 class="wp-block-post-title has-large-font-size"><a href="/UX221Assignment1/feeding-your-dog/" target="_self" >Feeding your dog</a></h3>
 				<div class="has-text-align-right wp-block-post-date"><time datetime="2025-01-31T18:32:01-05:00"><a href="/UX221Assignment1/feeding-your-dog/">31 January 2025</a></time></div>
 			</div>
 			
-		</li><li class="wp-block-post post-41 post type-post status-publish format-standard hentry category-uncategorized">
+		</li><li class="wp-block-post post-41 post type-post status-publish format-standard has-post-thumbnail hentry category-cats">
 			
 			<div class="wp-block-group alignfull is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-13 wp-block-group-is-layout-flex" style="border-bottom-color:var(--wp--preset--color--accent-6);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 				<h3 class="wp-block-post-title has-large-font-size"><a href="/UX221Assignment1/feeding-your-cat/" target="_self" >Feeding your cat</a></h3>
